@@ -1,0 +1,137 @@
+@media (min-width: 800px) {
+  .menu {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    border-bottom: solid 3px #5e5b2d;
+  }
+  .menu .logo {
+    display: flex;
+  }
+  .menu h1 {
+    font-size: 5em;
+    margin: 1px;
+    padding-left: 20px;
+    color: #b4ba50;
+    font-family: permanent marker;
+    font-weight: lighter;
+  }
+  .logo img {
+    width: 7%;
+  }
+  .menu nav ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 5em;
+    margin: 0;
+    padding: 0;
+    margin-top: 3em;
+    color: #b4ba50;
+    font-family: permanent marker;
+    font-size: 18px;
+  }
+  nav {
+    padding-left: 30em;
+  }
+  .hero img {
+    width: 1213px;
+    margin-top: 1em;
+    border-bottom: solid 2px #5e5b2d;
+    padding-bottom: 2em;
+  }
+  .hero p {
+    color: #b4ba50;
+    font-family: permanent marker;
+    font-size: 1.8em;
+    place-self: center;
+    font-weight: bold;
+  }
+  .grid-2-2 {
+    border-top: solid 2px #5e5b2d;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    margin: 0;
+    overflow: hidden;
+  }
+  .grid-2-2 img {
+    grid-area: 1/1;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .grid-2-2 .caption {
+    grid-area: 1/1;
+    place-self: center;
+    color: #cd5a90;
+    padding-bottom: 1em;
+    font-size: xx-large;
+    font-weight: 880;
+    font-family: permanent marker;
+  }
+  .tekstboks {
+    padding-left: 3em;
+  }
+
+  .grid-2-2 h2 {
+    color: #68314b;
+    font-family: "Lexend Exa", sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+  .grid-2-2 h3 {
+    color: #68314b;
+    font-family: "Lexend Exa", sans-serif;
+    font-weight: 700;
+    font-size: large;
+    padding-bottom: 1em;
+  }
+  .grid-2-2 p {
+    color: #723752;
+    font-family: "Lexend Exa", sans-serif;
+    line-height: 27px;
+  }
+  .grid-1-1-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    gap: 1rem;
+    border-top: solid 2px #5e5b2d;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .grid-1-1-1 img {
+    width: 100%;
+  }
+  .sams {
+    grid-column: 2/4;
+  }
+  .tunel {
+    grid-row: span 2;
+  }
+  .footer {
+    display: flex;
+    padding-top: 3rem;
+    justify-content: center;
+  }
+  .footer ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: permanent marker;
+    font-size: 18px;
+    gap: 8em;
+  }
+  .footer .nav1 {
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #b4ba50;
+  }
+  footer {
+    border-top: solid 2px #5e5b2d;
+    padding-bottom: 3rem;
+    border-bottom: solid 2px #5e5b2d;
+  }
+}

@@ -1,0 +1,9 @@
+@media (min-width: 800px) {
+  html {
+    background-color: #252424;
+  }
+  body {
+    margin-left: 8em;
+    margin-right: 8em;
+  }
+}
